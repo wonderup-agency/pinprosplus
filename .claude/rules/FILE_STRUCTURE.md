@@ -6,7 +6,8 @@
 │   ├── components.js              Component registry (auto-managed by create-component)
 │   ├── config.js                  Shared project config (API keys, endpoints, flags)
 │   ├── components/
-│   │   └── global.js              Runs on every page before components load
+│   │   ├── global.js              Runs on every page before components load
+│   │   └── quote-form.js          Multi-step quote form wizard (all 6 product forms)
 │   └── pages/
 │       └── .gitkeep               Per-page standalone bundles go here
 │

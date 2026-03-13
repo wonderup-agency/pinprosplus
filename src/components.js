@@ -13,4 +13,9 @@
 // All three scaffold the file and add an entry here automatically.
 // --------------------------------------------------
 
-export default []
+export default [
+  {
+    selector: "[data-component='quote-form']",
+    importFn: () => import('./components/quote-form.js'),
+  },
+]
