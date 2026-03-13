@@ -56,18 +56,18 @@
 
 ## Where things go
 
-| What                   | Where                                                         |
-| ---------------------- | ------------------------------------------------------------- |
-| New component          | `src/components/<name>.js` (use `npm run create-component`)   |
+| What | Where |
+| --- | --- |
+| New component | `src/components/<name>.js` (use `npm run create-component`) |
 | Component subdirectory | `src/components/<group>/<name>.js` (e.g., `forms/contact.js`) |
-| Component registration | `src/components.js` (auto-managed by create-component)        |
-| Global site-wide code  | `src/components/global.js`                                    |
-| Page-specific bundle   | `src/pages/<name>.js` (use `npm run create-page`)             |
-| Nested page bundle     | `src/pages/<section>/<name>.js` (e.g., `blog/post.js`)        |
-| Project config         | `src/config.js`                                               |
-| CSS                    | Import in any JS file — extracts to `dist/styles.css`         |
-| Node scripts           | `scripts/`                                                    |
-| Dashboard modules      | `scripts/dashboard/`                                          |
-| Component docs         | `.claude/rules/components/<name>.md`                          |
-| Page docs              | `.claude/rules/pages/<name>.md`                               |
-| Architecture docs      | `.claude/rules/`                                              |
+| Component registration | `src/components.js` (auto-managed by create-component) |
+| Global site-wide code | `src/components/global.js` |
+| Page-specific bundle | `src/pages/<name>.js` (use `npm run create-page`) |
+| Nested page bundle | `src/pages/<section>/<name>.js` (e.g., `blog/post.js`) |
+| Project config | `src/config.js` |
+| CSS | Import in any JS file — extracts to `dist/styles.css` |
+| Node scripts | `scripts/` |
+| Dashboard modules | `scripts/dashboard/` |
+| Component docs | `.claude/rules/components/<name>.md` |
+| Page docs | `.claude/rules/pages/<name>.md` |
+| Architecture docs | `.claude/rules/` |

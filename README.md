@@ -155,28 +155,28 @@ These docs are read before any work and updated after every change, so Claude al
 
 ### Quick reference
 
-| Task               | What to say                          |
-| ------------------ | ------------------------------------ |
-| Create component   | "Create a `<name>` component"        |
-| Create page bundle | "Create a `<name>` page"             |
-| Rename component   | "Rename `<old>` to `<new>`"          |
-| Delete component   | "Delete the `<name>` component"      |
-| Delete page        | "Delete the `<name>` page"           |
-| Commit             | "Commit my changes"                  |
-| Deploy             | "Deploy a patch/minor/major release" |
-| Audit              | "Audit the project"                  |
+| Task | What to say |
+| --- | --- |
+| Create component | "Create a `<name>` component" |
+| Create page bundle | "Create a `<name>` page" |
+| Rename component | "Rename `<old>` to `<new>`" |
+| Delete component | "Delete the `<name>` component" |
+| Delete page | "Delete the `<name>` page" |
+| Commit | "Commit my changes" |
+| Deploy | "Deploy a patch/minor/major release" |
+| Audit | "Audit the project" |
 
 ## Dashboard
 
 Run `npm start` to open the interactive terminal dashboard. It provides a menu-driven interface for all project tasks:
 
-| Section       | Options                                                       |
-| ------------- | ------------------------------------------------------------- |
-| **Core**      | Dev Server, Build                                             |
-| **Create**    | Component, Page                                               |
-| **Packages**  | Install, Uninstall, Update                                    |
-| **Workflow**  | Git Status, Git Log, Git Pull, Tag Version, Push, Push + Tags |
-| **Utilities** | Lint, Format, Tunnel                                          |
+| Section | Options |
+| --- | --- |
+| **Core** | Dev Server, Build |
+| **Create** | Component, Page |
+| **Packages** | Install, Uninstall, Update |
+| **Workflow** | Git Status, Git Log, Git Pull, Tag Version, Push, Push + Tags |
+| **Utilities** | Lint, Format, Tunnel |
 
 The dashboard shows the current git branch, component count, last build time, and version in the header. Command output streams to the log panel at the bottom.
 

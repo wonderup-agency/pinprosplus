@@ -24,7 +24,7 @@ Read `package.json` to get the repository URL and current version for the CDN UR
 
 Create a documentation file at `.claude/rules/pages/$ARGUMENTS.md` with this structure:
 
-````markdown
+`````markdown
 # <page-name>
 
 ## Purpose
@@ -42,7 +42,6 @@ Add to the specific Webflow page that needs this bundle:
   type="module"
 ></script>
 ```
-````
 
 Local development:
 
@@ -57,8 +56,7 @@ Local development:
 ## Dependencies
 
 None.
-
-```
+`````
 
 Use the actual repo path from package.json for the CDN URL. Use the current version for the tag.
 
@@ -68,4 +66,3 @@ Tell the user:
 - The page file that was created
 - The doc file that was created
 - The `<script>` tag to add in Webflow
-```

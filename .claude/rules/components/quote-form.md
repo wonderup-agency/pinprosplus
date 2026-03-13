@@ -24,14 +24,14 @@ data-component="quote-form"
 
 ### Required `data-quote-form` attributes inside the component:
 
-| Attribute                         | Element                  | Purpose                                |
-| --------------------------------- | ------------------------ | -------------------------------------- |
-| `data-quote-form="step"`          | `<div>`                  | Each step container                    |
-| `data-quote-form="prev"`          | `<button>`               | Previous step button                   |
-| `data-quote-form="next"`          | `<button>`               | Next step button                       |
-| `data-quote-form="submit"`        | `<button type="submit">` | Submit button                          |
-| `data-quote-form="progress-fill"` | `<div>`                  | Progress bar fill (uses scaleX via JS) |
-| `data-quote-form="progress-text"` | `<div>`                  | Step counter text (e.g. "1/5")         |
+| Attribute | Element | Purpose |
+| --- | --- | --- |
+| `data-quote-form="step"` | `<div>` | Each step container |
+| `data-quote-form="prev"` | `<button>` | Previous step button |
+| `data-quote-form="next"` | `<button>` | Next step button |
+| `data-quote-form="submit"` | `<button type="submit">` | Submit button |
+| `data-quote-form="progress-fill"` | `<div>` | Progress bar fill (uses scaleX via JS) |
+| `data-quote-form="progress-text"` | `<div>` | Step counter text (e.g. "1/5") |
 
 ### Required element IDs (for file uploads):
 

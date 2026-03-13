@@ -20,7 +20,7 @@ If the script fails (component already exists, etc.), stop and report the error.
 
 Create a documentation file at `.claude/rules/components/$ARGUMENTS.md` with this structure:
 
-```markdown
+````markdown
 # <component-name>
 
 ## Purpose
@@ -30,10 +30,9 @@ Create a documentation file at `.claude/rules/components/$ARGUMENTS.md` with thi
 ## Webflow Setup
 
 Add to any element in Webflow:
+
 ```
-
 data-component="<component-name>"
-
 ```
 
 ## Behavior
@@ -48,7 +47,7 @@ None.
 ## DOM Expectations
 
 Elements matching `[data-component='<component-name>']`.
-```
+````
 
 Use the actual component name (the last segment of the path, e.g., `forms/contact` → `contact` for the data attribute, `forms/contact` for the doc path).
 

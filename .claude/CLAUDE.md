@@ -175,17 +175,17 @@ All docs in `.claude/rules/` directory:
 
 ## Key Files
 
-| File                       | Purpose                                                  |
-| -------------------------- | -------------------------------------------------------- |
-| `src/main.js`              | Entry point — loads global.js then dynamic components    |
-| `src/components.js`        | Component registry (auto-managed by create-component)    |
-| `src/components/global.js` | Runs on every page before components                     |
-| `src/components/*.js`      | Individual components                                    |
-| `src/pages/*.js`           | Per-page standalone bundles                              |
-| `src/config.js`            | Project-level config (API keys, endpoints, flags)        |
-| `webflow-snippet.html`     | Snippet to paste in Webflow head with setup instructions |
-| `rollup.config.dev.js`     | Dev build (sourcemaps, no minification)                  |
-| `rollup.config.prod.js`    | Prod build (minified, no console, no comments)           |
+| File | Purpose |
+| --- | --- |
+| `src/main.js` | Entry point — loads global.js then dynamic components |
+| `src/components.js` | Component registry (auto-managed by create-component) |
+| `src/components/global.js` | Runs on every page before components |
+| `src/components/*.js` | Individual components |
+| `src/pages/*.js` | Per-page standalone bundles |
+| `src/config.js` | Project-level config (API keys, endpoints, flags) |
+| `webflow-snippet.html` | Snippet to paste in Webflow head with setup instructions |
+| `rollup.config.dev.js` | Dev build (sourcemaps, no minification) |
+| `rollup.config.prod.js` | Prod build (minified, no console, no comments) |
 
 ## Workflow
 
